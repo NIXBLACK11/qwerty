@@ -18,3 +18,38 @@
 .animate-blink {
   animation: blink 1s step-end infinite;
 }
+
+.custom-cursor {
+  font-size: 2rem;
+  line-height: 1;
+  height: 1.5em;
+  display: inline-block;
+  transform: translate(-10px, 20%);
+}
+
+.rainbow-border {
+  position: relative;
+  padding: 10px;
+  border-radius: 24px;
+}
+
+.rainbow-border::before {
+  content: "";
+  position: absolute;
+  top: -3px; /* Adjust to control thickness */
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  border-radius: inherit;
+  background: conic-gradient(from 0deg, red, orange, yellow, green, cyan, blue, violet, red);
+  animation: rotateRainbow 3s linear infinite; /* Adjust duration as needed */
+  z-index: -1;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: destination-out;
+}
+
+@keyframes rotateRainbow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

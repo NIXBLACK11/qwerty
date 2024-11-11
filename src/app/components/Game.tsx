@@ -10,24 +10,52 @@ const spaceMono = Space_Mono({
 })
 
 export const Game = () => {
+    const [startTime, setStartTime] = useState<number | null>(null);
+    const [WPM, setWPM] = useState<number>(0);
+    const [totalTime, setTotalTime] = useState<number>(0);
+    const [errorsInType, setErrorsInType] = useState<number>(0);
     const [text, setText] = useState<string>("Success is the result of preparation, hard work, and learning from failure. It’s not about luck, but about the effort you put in when no one is watching, pushing forward despite obstacles and setbacks.");
     const [completedText, setCompletedText] = useState<string>("");
     const [incorrectIndices, setIncorrectIndices] = useState<number[]>([]);
     const [index, setIndex] = useState<number>(0);
     const pressedKeyRef = useRef<string | null>(null);
 
+    const totalWords = text.length;
+
+    const startTimer = () => {
+        setStartTime(Date.now());
+    };
+
+    const stopTimer = () => {
+        if (startTime !== null && totalTime == 0) {
+            const endTime = Date.now();
+            const elapsedTime = (endTime - startTime) / 1000;
+            const wpm = ((totalWords - errorsInType) / 5) * (60 / elapsedTime);
+            setWPM(wpm);
+            setTotalTime(elapsedTime);
+        }
+    };
+
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
             if (event.key.length === 1 || ['Enter', 'Backspace', 'Space', 'Tab'].includes(event.key)) {
                 pressedKeyRef.current = event.key;
 
+                if(!startTime) {
+                    startTimer();
+                }
+
                 if (pressedKeyRef.current === text[index]) {
                     setCompletedText(prev => prev + text[index]);
-                    setIndex(index + 1);
                 }
                 else {
+                    setErrorsInType(prev => prev + 1);
                     setIncorrectIndices(prev => [...prev, index]);
-                    setIndex(index + 1);
+                }
+                setIndex(index + 1);
+
+                if(index+1>=text.length) {
+                    stopTimer();
                 }
             }
         };
@@ -58,7 +86,7 @@ export const Game = () => {
         } else {
             return (
                 <>
-                    <span className="absolute animate-blink text-accent">
+                    <span className="absolute animate-blink text-accent custom-cursor">
                         |
                     </span>
                     <span key={i} className="text-5xl text-accent">
