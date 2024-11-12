@@ -1,23 +1,23 @@
 export interface IQWERTYGame {
-    name: String;
+    name: string;
     wager: Number;
-    player1Account: String;
+    player1Account: string;
 }
 
 export interface FullQWERTYGame {
-    id: String;
-    name: String;
+    id: string;
+    name: string;
     wager: number;
-    player1Account: String;
-    player2Account: String;
-    player1WPM: String;
-    player2WPM: String;
+    player1Account: string;
+    player2Account: string;
+    player1WPM: string;
+    player2WPM: string;
     player1Joined: Boolean;
     player2Joined: Boolean;
-    winner: String;
+    winner: string;
 }
 
 export interface JQWERTYGame {
     id: string;
-    player2Account: String;
+    player2Account: string;
 }

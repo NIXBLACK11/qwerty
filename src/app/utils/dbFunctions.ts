@@ -5,7 +5,7 @@ import QWERTYGame from "@/models/QWERTY";
 
   export async function createQWERTYGameBackend(
     QWERTYGameData: IQWERTYGame,
-  ): Promise<String | null> {
+  ): Promise<string | null> {
     try {
       await dbConnect();
       logger.info(`Creating a new QWERTY game in the database:`);
