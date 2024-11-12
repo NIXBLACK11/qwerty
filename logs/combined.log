@@ -558,3 +558,21 @@ Then you can Share your link so others can join: [http://localhost:3000/api/acti
 2024-11-12 18:23:26 [INFO]: [Create QWERTY next action] final response: You’ve been challenged! Now it's your turn to test your typing skills and beat the score.}
 
 Click here to play: https://qwerty.nixblack.site/6733446826b2a9f797f05dae
+2024-11-12 19:35:47 [INFO]: GET request received for QWERTY
+2024-11-12 19:35:47 [INFO]: Payload constructed successfully: %o
+2024-11-12 19:35:48 [INFO]: GET request received for QWERTY
+2024-11-12 19:35:48 [INFO]: Payload constructed successfully: %o
+2024-11-12 19:35:52 [INFO]: GET request received for join QWERTY
+2024-11-12 19:35:52 [INFO]: Fetching QWERTY game with ID: 6733446826b2a9f797f05dae
+2024-11-12 19:35:52 [INFO]: Game found: {"id":"6733446826b2a9f797f05dae","name":"jop sighriugv","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-12 19:35:52 [INFO]: Payload constructed successfully: %o
+2024-11-12 19:35:52 [INFO]: GET request received for join QWERTY
+2024-11-12 19:35:52 [INFO]: Fetching QWERTY game with ID: 6733446826b2a9f797f05dae
+2024-11-12 19:35:52 [INFO]: Game found: {"id":"6733446826b2a9f797f05dae","name":"jop sighriugv","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-12 19:35:52 [INFO]: Payload constructed successfully: %o
+2024-11-12 20:04:04 [INFO]: GET request received for QWERTY
+2024-11-12 20:04:04 [INFO]: Payload constructed successfully: %o
+2024-11-12 20:04:16 [INFO]: GET request received for QWERTY
+2024-11-12 20:04:16 [INFO]: Payload constructed successfully: %o
+2024-11-12 20:04:48 [INFO]: GET request received for QWERTY
+2024-11-12 20:04:48 [INFO]: Payload constructed successfully: %o
