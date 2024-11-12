@@ -5,11 +5,19 @@ export interface IQWERTYGame {
 }
 
 export interface FullQWERTYGame {
+    id: String;
     name: String;
-    wager: Number;
+    wager: number;
     player1Account: String;
-    playe2Account: String;
+    player2Account: String;
     player1WPM: String;
     player2WPM: String;
+    player1Joined: Boolean;
+    player2Joined: Boolean;
     winner: String;
+}
+
+export interface JQWERTYGame {
+    id: string;
+    player2Account: String;
 }

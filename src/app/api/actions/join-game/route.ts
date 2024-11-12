@@ -39,15 +39,23 @@ import { FullQWERTYGame } from "@/app/utils/types";
       const fullGame: FullQWERTYGame | null = await getQWERTYGameById(gameID);
 
       if(fullGame==null) {
-        throw new Error();
+        throw new Error("Error in fetching game, no such game!");
       }
 
-      const href = `/api/actions/create-game?name=${name}&gameID=${gameID}`;
+      if(fullGame.name!=name) {
+        throw new Error("Invalid details provided!");
+      }
+
+      if(fullGame.player1Joined==false) {
+        throw new Error("Player 1 has not played yet!");
+      }
+
+      const href = `/api/actions/join-game?name=${name}&gameID=${gameID}`;
   
       const actions: LinkedAction[] = [
         {
           type: "transaction",
-          label: `QWERTY: Someone wants to test your typing speed😈!`,
+          label: `Join the challenge for ${fullGame.wager}SOL!`,
           href,
           parameters: [],
         },
@@ -57,7 +65,7 @@ import { FullQWERTYGame } from "@/app/utils/types";
         title: "Someone wants to test your typing speed😈!",
         icon: new URL("/black.jpg", requestUrl.origin).toString(),
         type: "action",
-        description: `Player 1 sets the wager, completes the typing challenge, and gets a WPM score. Share the game link with Player 2 to see if they can beat it. May the best typer win!`,
+        description: `Player 1 has set a wager of ${fullGame.wager}SOL and completed the typing challenge! Now it’s your turn to beat their score and claim the win. Can you type faster?`,
         label: "Join the typing challenge!!",
         links: { actions },
       };
@@ -65,7 +73,7 @@ import { FullQWERTYGame } from "@/app/utils/types";
       logger.info("Payload constructed successfully: %o", payload);
       return jsonResponse(payload, StatusCodes.OK, headers);
     } catch (err) {
-      logger.error("An error occurred in GET handler: %s", err);
+      logger.error(`An error occurred in GET handler: ${err}`);
       const actionError: ActionError = { message: "An unknown error occurred" };
       return jsonResponse(actionError, StatusCodes.BAD_REQUEST, headers);
     }
@@ -75,15 +83,26 @@ import { FullQWERTYGame } from "@/app/utils/types";
   
   export const POST = async (req: Request) => {
     try {
-      const requestUrl = new URL(req.url);
-      const queryParams = new URLSearchParams(requestUrl.search);
+        logger.info("POST request received for join QWERTY");
   
-      const name = queryParams.get('name');
-      const wager = parseFloat(queryParams.get('wager') || "0.0");
-
-      if (!name || !wager) {
-        return jsonResponse({ error: "Error in extracting parameters" }, StatusCodes.INTERNAL_SERVER_ERROR, headers);
-      }
+        const requestUrl = new URL(req.url);
+        const queryParams = new URLSearchParams(requestUrl.search);
+        const name = queryParams.get('name');
+        const gameID = queryParams.get('gameID');
+  
+        if (!name || !gameID) {
+          return jsonResponse({ error: "Error in extracting parameters" }, StatusCodes.INTERNAL_SERVER_ERROR, headers);
+        }
+    
+        const fullGame: FullQWERTYGame | null = await getQWERTYGameById(gameID);
+  
+        if(fullGame==null) {
+          throw new Error("Error in fetching game, no such game!");
+        }
+  
+        if(fullGame.name!=name) {
+          throw new Error("Invalid details provided!");
+        }
 
       const body: ActionPostRequest = await req.json();
       let account: PublicKey;
@@ -104,7 +123,7 @@ import { FullQWERTYGame } from "@/app/utils/types";
 		accountPublicKey: account,
 		gameWallet,
 		currency: "SOL",
-		amount: wager,
+		amount: fullGame.wager,
 		connection,
 		cluster: cluster.devnet,
 	  };
@@ -118,7 +137,7 @@ import { FullQWERTYGame } from "@/app/utils/types";
 		feePayer: account,
 	  }).add(...tx);
   
-      const href = `/api/actions/create-game/next-action?name=${name}&wager=${wager}`;
+      const href = `/api/actions/join-game/next-action?name=${name}&gameID=${gameID}`;
       logger.info(`Redirecting to next action at: ${href}`);
   
       let payload: ActionPostResponse;
@@ -127,7 +146,7 @@ import { FullQWERTYGame } from "@/app/utils/types";
           fields: {
             type: "transaction",
             transaction,
-            message: "Initiate QWERTY",
+            message: "Join Challenge",
             links: { 
               next: { 
                 type: "post", 

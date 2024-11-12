@@ -31,7 +31,7 @@ import { createTransaction } from "@/app/utils/transaction";
       const actions: LinkedAction[] = [
         {
           type: "transaction",
-          label: "QWERTY: Test Your Typing Speed⌨️!",
+          label: "Create the challenge 💸",
           href,
           parameters: [
             {
@@ -49,7 +49,7 @@ import { createTransaction } from "@/app/utils/transaction";
       ];
   
       const payload: ActionGetResponse = {
-        title: "QWERTY: Test Your Typing Speed!",
+        title: "Test Your Typing Speed ⌨️",
         icon: new URL("/black.jpg", requestUrl.origin).toString(),
         type: "action",
         description: `Player 1 sets the wager, completes the typing challenge, and gets a WPM score. Share the game link with Player 2 to see if they can beat it. May the best typer win!`,

@@ -274,3 +274,287 @@
 2024-11-12 16:52:30 [INFO]: Payload constructed successfully: %o
 2024-11-12 16:52:30 [INFO]: GET request received for join QWERTY
 2024-11-12 16:52:30 [INFO]: Payload constructed successfully: %o
+2024-11-12 17:01:19 [INFO]: GET request received for join QWERTY
+2024-11-12 17:01:19 [INFO]: Fetching QWERTY game with ID: 673326051ee7bdd506dbb17c
+2024-11-12 17:01:19 [INFO]: Game found: {"id":"673326051ee7bdd506dbb17c","name":"ghgh","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"winner":""}
+2024-11-12 17:01:19 [INFO]: Payload constructed successfully: %o
+2024-11-12 17:01:19 [INFO]: GET request received for join QWERTY
+2024-11-12 17:01:19 [INFO]: Fetching QWERTY game with ID: 673326051ee7bdd506dbb17c
+2024-11-12 17:01:19 [INFO]: Game found: {"id":"673326051ee7bdd506dbb17c","name":"ghgh","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"winner":""}
+2024-11-12 17:01:19 [INFO]: Payload constructed successfully: %o
+2024-11-12 17:02:01 [INFO]: GET request received for join QWERTY
+2024-11-12 17:02:01 [INFO]: Fetching QWERTY game with ID: 673326051ee7bdd506dbb17c
+2024-11-12 17:02:01 [INFO]: Game found: {"id":"673326051ee7bdd506dbb17c","name":"ghgh","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"winner":""}
+2024-11-12 17:02:01 [INFO]: Payload constructed successfully: %o
+2024-11-12 17:02:01 [INFO]: GET request received for join QWERTY
+2024-11-12 17:02:01 [INFO]: Fetching QWERTY game with ID: 673326051ee7bdd506dbb17c
+2024-11-12 17:02:01 [INFO]: Game found: {"id":"673326051ee7bdd506dbb17c","name":"ghgh","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"winner":""}
+2024-11-12 17:02:01 [INFO]: Payload constructed successfully: %o
+2024-11-12 17:06:27 [INFO]: GET request received for join QWERTY
+2024-11-12 17:06:27 [INFO]: Fetching QWERTY game with ID: 673326051ee7bdd506dbb17c
+2024-11-12 17:06:27 [INFO]: Game found: {"id":"673326051ee7bdd506dbb17c","name":"ghgh","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"winner":""}
+2024-11-12 17:06:27 [INFO]: Payload constructed successfully: %o
+2024-11-12 17:06:28 [INFO]: GET request received for join QWERTY
+2024-11-12 17:06:28 [INFO]: Fetching QWERTY game with ID: 673326051ee7bdd506dbb17c
+2024-11-12 17:06:28 [INFO]: Game found: {"id":"673326051ee7bdd506dbb17c","name":"ghgh","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"winner":""}
+2024-11-12 17:06:28 [INFO]: Payload constructed successfully: %o
+2024-11-12 17:06:38 [INFO]: GET request received for join QWERTY
+2024-11-12 17:06:38 [INFO]: Fetching QWERTY game with ID: 673326051ee7bdd506dbb17c
+2024-11-12 17:06:38 [INFO]: Game found: {"id":"673326051ee7bdd506dbb17c","name":"ghgh","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"winner":""}
+2024-11-12 17:06:38 [INFO]: Payload constructed successfully: %o
+2024-11-12 17:06:38 [INFO]: GET request received for join QWERTY
+2024-11-12 17:06:38 [INFO]: Fetching QWERTY game with ID: 673326051ee7bdd506dbb17c
+2024-11-12 17:06:38 [INFO]: Game found: {"id":"673326051ee7bdd506dbb17c","name":"ghgh","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"winner":""}
+2024-11-12 17:06:38 [INFO]: Payload constructed successfully: %o
+2024-11-12 17:32:16 [INFO]: GET request received for join QWERTY
+2024-11-12 17:32:17 [INFO]: Fetching QWERTY game with ID: 673326051ee7bdd506dbb17c
+2024-11-12 17:32:17 [INFO]: Game found: {"id":"673326051ee7bdd506dbb17c","name":"ghgh","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-12 17:32:17 [ERROR]: An error occurred in GET handler: %s
+2024-11-12 17:33:11 [INFO]: GET request received for join QWERTY
+2024-11-12 17:33:11 [INFO]: Fetching QWERTY game with ID: 673326051ee7bdd506dbb17c
+2024-11-12 17:33:11 [INFO]: Game found: {"id":"673326051ee7bdd506dbb17c","name":"ghgh","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-12 17:33:11 [ERROR]: An error occurred in GET handler: %s
+2024-11-12 17:33:57 [INFO]: GET request received for join QWERTY
+2024-11-12 17:33:57 [INFO]: Fetching QWERTY game with ID: 673326051ee7bdd506dbb17c
+2024-11-12 17:33:57 [INFO]: Game found: {"id":"673326051ee7bdd506dbb17c","name":"ghgh","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-12 17:33:57 [ERROR]: An error occurred in GET handler: Error: Player 1 has not played yet!
+2024-11-12 17:34:27 [INFO]: GET request received for QWERTY
+2024-11-12 17:34:27 [INFO]: Payload constructed successfully: %o
+2024-11-12 17:34:28 [INFO]: GET request received for QWERTY
+2024-11-12 17:34:28 [INFO]: Payload constructed successfully: %o
+2024-11-12 17:34:35 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-12 17:34:35 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-12 17:34:36 [INFO]: Redirecting to next action at: /api/actions/create-game/next-action?name=jop sighriugv&wager=0.001
+2024-11-12 17:34:36 [INFO]: Response payload created successfully
+2024-11-12 17:34:56 [INFO]: Creating a new QWERTY game in the database:
+2024-11-12 17:34:56 [INFO]: QWERTY game created successfully with ID: 6733446826b2a9f797f05dae
+2024-11-12 17:34:56 [INFO]: [Create QWERTY next action] final response: Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=6733446826b2a9f797f05dae&name=jop sighriugv
+2024-11-12 17:35:37 [INFO]: GET request received for join QWERTY
+2024-11-12 17:35:38 [INFO]: GET request received for join QWERTY
+2024-11-12 17:35:38 [INFO]: Fetching QWERTY game with ID: 673326051ee7bdd506dbb17c
+2024-11-12 17:35:38 [ERROR]: Game with ID 673326051ee7bdd506dbb17c not found
+2024-11-12 17:35:38 [ERROR]: An error occurred in GET handler: Error: Error in fetching game, no such game!
+2024-11-12 17:35:39 [INFO]: GET request received for join QWERTY
+2024-11-12 17:35:39 [INFO]: Fetching QWERTY game with ID: 673326051ee7bdd506dbb17c
+2024-11-12 17:35:39 [ERROR]: Game with ID 673326051ee7bdd506dbb17c not found
+2024-11-12 17:35:39 [ERROR]: An error occurred in GET handler: Error: Error in fetching game, no such game!
+2024-11-12 17:35:59 [INFO]: GET request received for join QWERTY
+2024-11-12 17:35:59 [INFO]: Fetching QWERTY game with ID: 6733446826b2a9f797f05dae
+2024-11-12 17:35:59 [INFO]: Game found: {"id":"6733446826b2a9f797f05dae","name":"jop sighriugv","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-12 17:35:59 [INFO]: Payload constructed successfully: %o
+2024-11-12 17:36:05 [INFO]: GET request received for join QWERTY
+2024-11-12 17:36:05 [INFO]: Fetching QWERTY game with ID: 6733446826b2a9f797f05dae
+2024-11-12 17:36:06 [INFO]: Game found: {"id":"6733446826b2a9f797f05dae","name":"jop sighriugv","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-12 17:36:06 [INFO]: Payload constructed successfully: %o
+2024-11-12 17:36:06 [INFO]: GET request received for join QWERTY
+2024-11-12 17:36:06 [INFO]: Fetching QWERTY game with ID: 6733446826b2a9f797f05dae
+2024-11-12 17:36:06 [INFO]: Game found: {"id":"6733446826b2a9f797f05dae","name":"jop sighriugv","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-12 17:36:06 [INFO]: Payload constructed successfully: %o
+2024-11-12 17:36:14 [INFO]: POST request received for join QWERTY
+2024-11-12 17:36:14 [INFO]: Fetching QWERTY game with ID: 6733446826b2a9f797f05dae
+2024-11-12 17:36:14 [INFO]: Game found: {"id":"6733446826b2a9f797f05dae","name":"jop sighriugv","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-12 17:36:14 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-12 17:36:14 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-12 17:36:15 [INFO]: Redirecting to next action at: /api/actions/join-game/next-action?name=jop sighriugv&gameID=6733446826b2a9f797f05dae
+2024-11-12 17:36:15 [INFO]: Response payload created successfully
+2024-11-12 17:36:51 [INFO]: POST request received for join QWERTY
+2024-11-12 17:36:51 [INFO]: Completing the game: 6733446826b2a9f797f05dae
+2024-11-12 17:36:51 [INFO]: Game updated successfully with player2Account: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-12 17:36:51 [INFO]: [Create QWERTY next action] final response: Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=6733446826b2a9f797f05dae&name=jop sighriugv
+2024-11-12 18:09:59 [INFO]: GET request received for QWERTY
+2024-11-12 18:09:59 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:09:59 [INFO]: GET request received for QWERTY
+2024-11-12 18:09:59 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:10:05 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-12 18:10:05 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-12 18:10:11 [INFO]: Redirecting to next action at: /api/actions/create-game/next-action?name=ghgh&wager=0.001
+2024-11-12 18:10:11 [INFO]: Response payload created successfully
+2024-11-12 18:10:14 [INFO]: GET request received for join QWERTY
+2024-11-12 18:10:14 [INFO]: Fetching QWERTY game with ID: 6733446826b2a9f797f05dae
+2024-11-12 18:10:14 [INFO]: Game found: {"id":"6733446826b2a9f797f05dae","name":"jop sighriugv","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-12 18:10:14 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:10:14 [INFO]: GET request received for join QWERTY
+2024-11-12 18:10:14 [INFO]: Fetching QWERTY game with ID: 6733446826b2a9f797f05dae
+2024-11-12 18:10:14 [INFO]: Game found: {"id":"6733446826b2a9f797f05dae","name":"jop sighriugv","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-12 18:10:14 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:10:27 [INFO]: Creating a new QWERTY game in the database:
+2024-11-12 18:10:27 [INFO]: QWERTY game created successfully with ID: 67334cbb26b2a9f797f05db9
+2024-11-12 18:10:27 [INFO]: [Create QWERTY next action] final response: 
+		Now it's time for you to complete the typing challenge to set the initial score. Once you've finished, others can join the game and try to beat your score.
+
+		Play now: https://www.qwerty.nixblack.site/67334cbb26b2a9f797f05db9
+		Note: Others will only be able to join after you complete your turn.
+		Then you can Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=67334cbb26b2a9f797f05db9&name=ghgh
+2024-11-12 18:11:43 [INFO]: GET request received for QWERTY
+2024-11-12 18:11:43 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:11:44 [INFO]: GET request received for QWERTY
+2024-11-12 18:11:44 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:12:53 [INFO]: GET request received for QWERTY
+2024-11-12 18:12:53 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:12:53 [INFO]: GET request received for QWERTY
+2024-11-12 18:12:53 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:13:21 [INFO]: GET request received for QWERTY
+2024-11-12 18:13:21 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:13:21 [INFO]: GET request received for QWERTY
+2024-11-12 18:13:21 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:13:53 [INFO]: GET request received for QWERTY
+2024-11-12 18:13:53 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:13:54 [INFO]: GET request received for QWERTY
+2024-11-12 18:13:54 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:14:12 [INFO]: GET request received for QWERTY
+2024-11-12 18:14:12 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:14:12 [INFO]: GET request received for QWERTY
+2024-11-12 18:14:12 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:14:23 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-12 18:14:23 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-12 18:14:28 [INFO]: Redirecting to next action at: /api/actions/create-game/next-action?name=test challenge&wager=0.001
+2024-11-12 18:14:28 [INFO]: Response payload created successfully
+2024-11-12 18:14:39 [INFO]: Creating a new QWERTY game in the database:
+2024-11-12 18:14:39 [INFO]: QWERTY game created successfully with ID: 67334db726b2a9f797f05dbb
+2024-11-12 18:14:39 [INFO]: [Create QWERTY next action] final response: Now it's time for you to complete the typing challenge to set the initial score. Once you've finished, others can join the game and try to beat your score.
+Play now: https://www.qwerty.nixblack.site/67334db726b2a9f797f05dbb
+Note: Others will only be able to join after you complete your turn.
+Then you can Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=67334db726b2a9f797f05dbb&name=test challenge]
+2024-11-12 18:15:19 [INFO]: GET request received for QWERTY
+2024-11-12 18:15:19 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:15:19 [INFO]: GET request received for QWERTY
+2024-11-12 18:15:19 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:16:32 [INFO]: Account PublicKey validated: 8fs3RJXk5MkpUSphQA84RGXA1wpHqr1pErfcaPR57PM7
+2024-11-12 18:16:32 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 8fs3RJXk5MkpUSphQA84RGXA1wpHqr1pErfcaPR57PM7, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-12 18:16:33 [INFO]: Redirecting to next action at: /api/actions/create-game/next-action?name=gg&wager=0.001
+2024-11-12 18:16:33 [INFO]: Response payload created successfully
+2024-11-12 18:16:39 [INFO]: Creating a new QWERTY game in the database:
+2024-11-12 18:16:39 [INFO]: QWERTY game created successfully with ID: 67334e2f26b2a9f797f05dbd
+2024-11-12 18:16:39 [INFO]: [Create QWERTY next action] final response: Now it's time for you to complete the typing challenge to set the initial score. Once you've finished, others can join the game and try to beat your score.
+Play now: https://www.qwerty.nixblack.site/67334e2f26b2a9f797f05dbd
+Note: Others will only be able to join after you complete your turn.
+Then you can Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=67334e2f26b2a9f797f05dbd&name=gg]
+2024-11-12 18:17:11 [INFO]: GET request received for QWERTY
+2024-11-12 18:17:11 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:17:16 [INFO]: GET request received for QWERTY
+2024-11-12 18:17:16 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:17:25 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-12 18:17:25 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-12 18:17:26 [INFO]: Redirecting to next action at: /api/actions/create-game/next-action?name=ff&wager=0.001
+2024-11-12 18:17:26 [INFO]: Response payload created successfully
+2024-11-12 18:17:47 [INFO]: Creating a new QWERTY game in the database:
+2024-11-12 18:17:52 [INFO]: QWERTY game created successfully with ID: 67334e73ca0d45d18632a1d9
+2024-11-12 18:17:52 [INFO]: [Create QWERTY next action] final response: Now it's time for you to complete the typing challenge to set the initial score. Once you've finished, others can join the game and try to beat your score.
+Play now: https://www.qwerty.nixblack.site/67334e73ca0d45d18632a1d9
+Note: Others will only be able to join after you complete your turn.
+Then you can Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=67334e73ca0d45d18632a1d9&name=ff]
+2024-11-12 18:18:35 [INFO]: GET request received for QWERTY
+2024-11-12 18:18:35 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:18:36 [INFO]: GET request received for QWERTY
+2024-11-12 18:18:36 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:18:40 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-12 18:18:40 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-12 18:18:41 [INFO]: Redirecting to next action at: /api/actions/create-game/next-action?name=ff&wager=0.001
+2024-11-12 18:18:41 [INFO]: Response payload created successfully
+2024-11-12 18:18:54 [INFO]: Creating a new QWERTY game in the database:
+2024-11-12 18:18:59 [INFO]: QWERTY game created successfully with ID: 67334eb6220b4be8dc2acfc9
+2024-11-12 18:18:59 [INFO]: [Create QWERTY next action] final response: Now it's time for you to complete the typing challenge to set the initial score. Once you've finished, others can join the game and try to beat your score.
+
+Play now: https://www.qwerty.nixblack.site/67334eb6220b4be8dc2acfc9
+
+Note: Others will only be able to join after you complete your turn.
+
+Then you can Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=67334eb6220b4be8dc2acfc9&name=ff]
+2024-11-12 18:20:06 [INFO]: POST request received for join QWERTY
+2024-11-12 18:20:06 [INFO]: Fetching QWERTY game with ID: 6733446826b2a9f797f05dae
+2024-11-12 18:20:06 [INFO]: Game found: {"id":"6733446826b2a9f797f05dae","name":"jop sighriugv","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-12 18:20:06 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-12 18:20:06 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-12 18:20:16 [ERROR]: An error occurred in POST handler: failed to get recent blockhash: TypeError: fetch failed
+2024-11-12 18:20:36 [INFO]: POST request received for join QWERTY
+2024-11-12 18:20:36 [INFO]: Fetching QWERTY game with ID: 6733446826b2a9f797f05dae
+2024-11-12 18:20:36 [INFO]: Game found: {"id":"6733446826b2a9f797f05dae","name":"jop sighriugv","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-12 18:20:36 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-12 18:20:36 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-12 18:20:37 [INFO]: Redirecting to next action at: /api/actions/join-game/next-action?name=jop sighriugv&gameID=6733446826b2a9f797f05dae
+2024-11-12 18:20:37 [INFO]: Response payload created successfully
+2024-11-12 18:20:47 [INFO]: POST request received for join QWERTY
+2024-11-12 18:20:47 [INFO]: Completing the game: 6733446826b2a9f797f05dae
+2024-11-12 18:20:47 [INFO]: Game updated successfully with player2Account: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-12 18:20:47 [INFO]: [Create QWERTY next action] final response: Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=6733446826b2a9f797f05dae&name=jop sighriugv
+2024-11-12 18:22:55 [INFO]: GET request received for join QWERTY
+2024-11-12 18:22:56 [INFO]: Fetching QWERTY game with ID: 6733446826b2a9f797f05dae
+2024-11-12 18:22:56 [INFO]: Game found: {"id":"6733446826b2a9f797f05dae","name":"jop sighriugv","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-12 18:22:56 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:22:56 [INFO]: GET request received for join QWERTY
+2024-11-12 18:22:56 [INFO]: Fetching QWERTY game with ID: 6733446826b2a9f797f05dae
+2024-11-12 18:22:56 [INFO]: Game found: {"id":"6733446826b2a9f797f05dae","name":"jop sighriugv","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-12 18:22:56 [INFO]: Payload constructed successfully: %o
+2024-11-12 18:23:06 [INFO]: POST request received for join QWERTY
+2024-11-12 18:23:06 [INFO]: Fetching QWERTY game with ID: 6733446826b2a9f797f05dae
+2024-11-12 18:23:06 [INFO]: Game found: {"id":"6733446826b2a9f797f05dae","name":"jop sighriugv","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-12 18:23:06 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-12 18:23:06 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-12 18:23:06 [INFO]: Redirecting to next action at: /api/actions/join-game/next-action?name=jop sighriugv&gameID=6733446826b2a9f797f05dae
+2024-11-12 18:23:06 [INFO]: Response payload created successfully
+2024-11-12 18:23:25 [INFO]: POST request received for join QWERTY
+2024-11-12 18:23:25 [INFO]: Completing the game: 6733446826b2a9f797f05dae
+2024-11-12 18:23:26 [INFO]: Game updated successfully with player2Account: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-12 18:23:26 [INFO]: [Create QWERTY next action] final response: You’ve been challenged! Now it's your turn to test your typing skills and beat the score.}
+
+Click here to play: https://qwerty.nixblack.site/6733446826b2a9f797f05dae

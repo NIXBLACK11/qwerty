@@ -6,3 +6,11 @@
 2024-11-12 15:17:36 [ERROR]: Error in creating game!!
 2024-11-12 15:18:32 [ERROR]: Error creating roulette game in MongoDB: TypeError: _models_QWERTY__WEBPACK_IMPORTED_MODULE_2__.default is not a constructor
 2024-11-12 15:18:32 [ERROR]: Error in creating game!!
+2024-11-12 17:32:17 [ERROR]: An error occurred in GET handler: %s
+2024-11-12 17:33:11 [ERROR]: An error occurred in GET handler: %s
+2024-11-12 17:33:57 [ERROR]: An error occurred in GET handler: Error: Player 1 has not played yet!
+2024-11-12 17:35:38 [ERROR]: Game with ID 673326051ee7bdd506dbb17c not found
+2024-11-12 17:35:38 [ERROR]: An error occurred in GET handler: Error: Error in fetching game, no such game!
+2024-11-12 17:35:39 [ERROR]: Game with ID 673326051ee7bdd506dbb17c not found
+2024-11-12 17:35:39 [ERROR]: An error occurred in GET handler: Error: Error in fetching game, no such game!
+2024-11-12 18:20:16 [ERROR]: An error occurred in POST handler: failed to get recent blockhash: TypeError: fetch failed
