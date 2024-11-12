@@ -1,0 +1,8 @@
+2024-11-12 15:12:11 [ERROR]: Error creating roulette game in MongoDB: %s
+2024-11-12 15:12:11 [ERROR]: Error in creating game
+2024-11-12 15:15:38 [ERROR]: Error creating roulette game in MongoDB: TypeError: _models_QWERTY__WEBPACK_IMPORTED_MODULE_2__.default is not a constructor
+2024-11-12 15:15:38 [ERROR]: Error in creating game
+2024-11-12 15:17:36 [ERROR]: Error creating roulette game in MongoDB: TypeError: _models_QWERTY__WEBPACK_IMPORTED_MODULE_2__.default is not a constructor
+2024-11-12 15:17:36 [ERROR]: Error in creating game!!
+2024-11-12 15:18:32 [ERROR]: Error creating roulette game in MongoDB: TypeError: _models_QWERTY__WEBPACK_IMPORTED_MODULE_2__.default is not a constructor
+2024-11-12 15:18:32 [ERROR]: Error in creating game!!
