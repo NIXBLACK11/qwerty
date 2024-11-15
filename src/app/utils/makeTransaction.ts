@@ -14,21 +14,23 @@ export const makeTransaction = async (amount: number, playerWalletPublicKey: str
 
         const playerWallet = new PublicKey(playerWalletPublicKey);
 
+        const lamports = Math.round(amount * 1e9);
+
         const transaction = new Transaction().add(
             SystemProgram.transfer({
                 fromPubkey: gameWallet.publicKey,
                 toPubkey: playerWallet,
-                lamports: amount,
+                lamports: lamports,
             })
         );
 
-        sendAndConfirmTransaction(
+        const signature = await sendAndConfirmTransaction(
             connection,
             transaction,
             [gameWallet]
         );
 
-        console.log('Transaction successful, signature');
+        console.log('Transaction successful, signature:', signature);
     } catch (error) {
         console.error('Transaction failed:', error);
     }
