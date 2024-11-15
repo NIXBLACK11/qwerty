@@ -33,5 +33,3 @@ export const makeTransaction = async (amount: number, playerWalletPublicKey: str
         console.error('Transaction failed:', error);
     }
 };
-
-makeTransaction(0.001, "6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5")
