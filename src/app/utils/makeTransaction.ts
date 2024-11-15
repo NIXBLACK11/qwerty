@@ -1,6 +1,6 @@
 import { Connection, Keypair, Transaction, SystemProgram, PublicKey, sendAndConfirmTransaction } from '@solana/web3.js';
 import { cluster } from './cluster';
-const bs58 = require('bs58');
+import bs58 from 'bs58';
 
 export const makeTransaction = async (amount: number, playerWalletPublicKey: string) => {
     try {
