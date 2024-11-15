@@ -7,7 +7,7 @@ interface CompleteGameProps {
   }
 
 export const PlayerOneCompletedGame: React.FC<CompleteGameProps> = ({game}) => {
-    const link = `https://dial.to/?action=solana-action%3Ahttps%3A%2F%2Fqwerty.nixblack.site%2Fapi%2Factions%2Fjoin-game%3FgameID%3D${game.id}%26name%3D${game.name}%26cluster%3Ddevnet`
+    const link = `https://dial.to/?action=solana-action%3Ahttps%3A%2F%2Fqwerty.nixblack.site%2Fapi%2Factions%2Fjoin-game%3FgameID%3D${game.id}%26name%3D${game.name}&cluster=devnet`
     return (
         <div className="w-full h-full flex justify-center items-center flex-col">
             <h1 className="text-5xl text-accent py-10">Player 1 has played his chance share this to player 2</h1>

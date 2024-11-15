@@ -67,7 +67,7 @@ import { StatusCodes } from "http-status-codes";
 		const message = `Now it's time for you to complete the typing challenge to set the initial score. Once you've finished, others can join the game and try to beat your score.\n
 Play now: https://qwerty.nixblack.site/game/${gameID}\n
 Note: Others will only be able to join after you complete your turn.\n
-Then you can Share your link so others can join: [https://dial.to/?action=solana-action%3Ahttps%3A%2F%2Fqwerty.nixblack.site%2Fapi%2Factions%2Fjoin-game%3FgameID%3D${gameID}%26name%3D${name}%26cluster%3Ddevnet]`
+Then you can Share your link so others can join: [https://dial.to/?action=solana-action%3Ahttps%3A%2F%2Fqwerty.nixblack.site%2Fapi%2Factions%2Fjoin-game%3FgameID%3D${gameID}%26name%3D${name}&cluster=devnet]`
 		logger.info(`[Create QWERTY next action] final response: ${message}`);
 		
 		const payload: CompletedAction = {
