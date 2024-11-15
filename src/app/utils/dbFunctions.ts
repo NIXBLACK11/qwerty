@@ -113,10 +113,10 @@ export async function completeQWERTYGameBackend(
 	if(playerNumber===2) {
 		if(gameData.player1WPM>gameData.player2WPM) {
 			gameData.winner="1";
-			makeTransaction(gameData.wager, gameData.player1Account);
+			makeTransaction(gameData.wager*2, gameData.player1Account);
 		} else {
 			gameData.winner="2";
-			makeTransaction(gameData.wager, gameData.player2Account);
+			makeTransaction(gameData.wager*2, gameData.player2Account);
 		}
 	}
   
