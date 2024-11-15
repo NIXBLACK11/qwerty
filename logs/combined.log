@@ -1167,3 +1167,5 @@ Click here to play: https://qwerty.nixblack.site/67370a415343013e9e1041a1
 2024-11-15 14:17:01 [INFO]: Payload constructed successfully: %o
 2024-11-15 14:17:11 [INFO]: Fetching QWERTY game with ID: 67370a415343013e9e1041a1
 2024-11-15 14:17:11 [INFO]: Game found: {"id":"67370a415343013e9e1041a1","name":"finally","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":1.4177693761814745,"player2WPM":21.38157894736842,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-15 15:01:53 [INFO]: GET request received for QWERTY
+2024-11-15 15:01:53 [INFO]: Payload constructed successfully: %o
