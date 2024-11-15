@@ -13,7 +13,7 @@ import { StatusCodes } from "http-status-codes";
   
   const headers = createActionHeaders();
   
-  export const GET = async (req: Request) => {
+  export const GET = async () => {
     return Response.json({ message: "Method not supported" } as ActionError, {
       status: 403,
       headers,
@@ -47,7 +47,7 @@ import { StatusCodes } from "http-status-codes";
 		try {
 			signature = body.signature!;
 			if (!signature) throw "Invalid signature";
-		} catch (err) {
+		} catch {
 			throw new Error('Invalid "signature" provided');
 		}
   
@@ -81,7 +81,7 @@ Then you can Share your link so others can join: [http://localhost:3000/api/acti
 		return jsonResponse(payload, StatusCodes.OK, headers);
 	} catch (err) {
 		logger.error(err);
-		let actionError: ActionError = { message: "An unknown error occurred" };
+		const actionError: ActionError = { message: "An unknown error occurred" };
 		if (typeof err == "string") actionError.message = err;
 		return jsonResponse(actionError, StatusCodes.BAD_REQUEST, headers);
 	}

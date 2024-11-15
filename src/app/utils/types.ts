@@ -1,6 +1,6 @@
 export interface IQWERTYGame {
     name: string;
-    wager: Number;
+    wager: number;
     player1Account: string;
 }
 
@@ -10,10 +10,10 @@ export interface FullQWERTYGame {
     wager: number;
     player1Account: string;
     player2Account: string;
-    player1WPM: string;
-    player2WPM: string;
-    player1Joined: Boolean;
-    player2Joined: Boolean;
+    player1WPM: number;
+    player2WPM: number;
+    player1Joined: boolean;
+    player2Joined: boolean;
     winner: string;
 }
 

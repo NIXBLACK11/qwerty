@@ -1,4 +1,4 @@
-import mongoose, { Document, Schema } from 'mongoose';
+import mongoose, { Schema } from 'mongoose';
 
 const QWERTYGameSchema: Schema = new Schema({
   name: { type: String, required: true },

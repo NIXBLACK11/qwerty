@@ -14,3 +14,11 @@
 2024-11-12 17:35:39 [ERROR]: Game with ID 673326051ee7bdd506dbb17c not found
 2024-11-12 17:35:39 [ERROR]: An error occurred in GET handler: Error: Error in fetching game, no such game!
 2024-11-12 18:20:16 [ERROR]: An error occurred in POST handler: failed to get recent blockhash: TypeError: fetch failed
+2024-11-13 20:07:34 [ERROR]: An error occurred in GET handler: Error: Player 1 has not played yet!
+2024-11-13 20:07:49 [ERROR]: An error occurred in GET handler: Error: Player 1 has not played yet!
+2024-11-13 20:07:58 [ERROR]: An error occurred in GET handler: Error: Player 1 has not played yet!
+2024-11-13 20:08:08 [ERROR]: An error occurred in GET handler: Error: Player 1 has not played yet!
+2024-11-14 17:46:20 [ERROR]: Game with ID 6734b9a9ff5ef877489cbdff not found
+2024-11-14 17:47:38 [ERROR]: Game with ID 6734b9a9ff5ef877489cbdff not found
+2024-11-14 18:17:31 [ERROR]: Error fetching QWERTY game: CastError: Cast to ObjectId failed for value "6735eb3bfd40631aa050dce" (type string) at path "_id" for model "QWERTYGame"
+2024-11-14 18:18:02 [ERROR]: Error fetching QWERTY game: CastError: Cast to ObjectId failed for value "6735eb3bfd40631aa050dce" (type string) at path "_id" for model "QWERTYGame"

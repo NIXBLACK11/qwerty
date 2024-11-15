@@ -576,3 +576,594 @@ Click here to play: https://qwerty.nixblack.site/6733446826b2a9f797f05dae
 2024-11-12 20:04:16 [INFO]: Payload constructed successfully: %o
 2024-11-12 20:04:48 [INFO]: GET request received for QWERTY
 2024-11-12 20:04:48 [INFO]: Payload constructed successfully: %o
+2024-11-13 09:54:01 [INFO]: GET request received for QWERTY
+2024-11-13 09:54:01 [INFO]: Payload constructed successfully: %o
+2024-11-13 20:06:44 [INFO]: GET request received for QWERTY
+2024-11-13 20:06:44 [INFO]: Payload constructed successfully: %o
+2024-11-13 20:06:44 [INFO]: GET request received for QWERTY
+2024-11-13 20:06:44 [INFO]: Payload constructed successfully: %o
+2024-11-13 20:06:52 [INFO]: GET request received for QWERTY
+2024-11-13 20:06:52 [INFO]: Payload constructed successfully: %o
+2024-11-13 20:07:15 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-13 20:07:15 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-13 20:07:16 [INFO]: Redirecting to next action at: /api/actions/create-game/next-action?name=frt&wager=0.001
+2024-11-13 20:07:16 [INFO]: Response payload created successfully
+2024-11-13 20:07:29 [INFO]: Creating a new QWERTY game in the database:
+2024-11-13 20:07:30 [INFO]: QWERTY game created successfully with ID: 6734b9a9ff5ef877489cbdff
+2024-11-13 20:07:30 [INFO]: [Create QWERTY next action] final response: Now it's time for you to complete the typing challenge to set the initial score. Once you've finished, others can join the game and try to beat your score.
+
+Play now: https://qwerty.nixblack.site/6734b9a9ff5ef877489cbdff
+
+Note: Others will only be able to join after you complete your turn.
+
+Then you can Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=6734b9a9ff5ef877489cbdff&name=frt]
+2024-11-13 20:07:34 [INFO]: GET request received for join QWERTY
+2024-11-13 20:07:34 [INFO]: Fetching QWERTY game with ID: 6734b9a9ff5ef877489cbdff
+2024-11-13 20:07:34 [INFO]: Game found: {"id":"6734b9a9ff5ef877489cbdff","name":"frt","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-13 20:07:34 [ERROR]: An error occurred in GET handler: Error: Player 1 has not played yet!
+2024-11-13 20:07:49 [INFO]: GET request received for join QWERTY
+2024-11-13 20:07:49 [INFO]: Fetching QWERTY game with ID: 6734b9a9ff5ef877489cbdff
+2024-11-13 20:07:49 [INFO]: Game found: {"id":"6734b9a9ff5ef877489cbdff","name":"frt","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-13 20:07:49 [ERROR]: An error occurred in GET handler: Error: Player 1 has not played yet!
+2024-11-13 20:07:58 [INFO]: GET request received for join QWERTY
+2024-11-13 20:07:58 [INFO]: Fetching QWERTY game with ID: 6734b9a9ff5ef877489cbdff
+2024-11-13 20:07:58 [INFO]: Game found: {"id":"6734b9a9ff5ef877489cbdff","name":"frt","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-13 20:07:58 [ERROR]: An error occurred in GET handler: Error: Player 1 has not played yet!
+2024-11-13 20:08:08 [INFO]: GET request received for join QWERTY
+2024-11-13 20:08:08 [INFO]: Fetching QWERTY game with ID: 6734b9a9ff5ef877489cbdff
+2024-11-13 20:08:08 [INFO]: Game found: {"id":"6734b9a9ff5ef877489cbdff","name":"frt","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-13 20:08:08 [ERROR]: An error occurred in GET handler: Error: Player 1 has not played yet!
+2024-11-13 20:08:30 [INFO]: GET request received for QWERTY
+2024-11-13 20:08:30 [INFO]: Payload constructed successfully: %o
+2024-11-13 20:36:54 [INFO]: GET request received for QWERTY
+2024-11-13 20:36:54 [INFO]: Payload constructed successfully: %o
+2024-11-14 12:00:55 [INFO]: GET request received for QWERTY
+2024-11-14 12:00:55 [INFO]: Payload constructed successfully: %o
+2024-11-14 12:00:55 [INFO]: GET request received for QWERTY
+2024-11-14 12:00:55 [INFO]: Payload constructed successfully: %o
+2024-11-14 12:00:59 [INFO]: GET request received for QWERTY
+2024-11-14 12:00:59 [INFO]: Payload constructed successfully: %o
+2024-11-14 12:00:59 [INFO]: GET request received for QWERTY
+2024-11-14 12:00:59 [INFO]: Payload constructed successfully: %o
+2024-11-14 12:03:10 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-14 12:03:10 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-14 12:03:10 [INFO]: Redirecting to next action at: /api/actions/create-game/next-action?name=test challenge&wager=0.001
+2024-11-14 12:03:10 [INFO]: Response payload created successfully
+2024-11-14 12:03:38 [INFO]: Creating a new QWERTY game in the database:
+2024-11-14 12:03:43 [INFO]: QWERTY game created successfully with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:03:43 [INFO]: [Create QWERTY next action] final response: Now it's time for you to complete the typing challenge to set the initial score. Once you've finished, others can join the game and try to beat your score.
+
+Play now: https://qwerty.nixblack.site/673599c241b2cccbdb7ad47a
+
+Note: Others will only be able to join after you complete your turn.
+
+Then you can Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=673599c241b2cccbdb7ad47a&name=test challenge]
+2024-11-14 12:04:16 [INFO]: Fetching QWERTY game with ID: 6734b9a9ff5ef877489cbdff
+2024-11-14 12:04:16 [INFO]: Game found: {"id":"6734b9a9ff5ef877489cbdff","name":"frt","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:04:23 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:04:23 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:05:32 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:05:32 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:06:08 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:06:08 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:06:14 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:06:14 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:06:42 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:06:42 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:08:06 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:08:06 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:08:47 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:08:47 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:09:52 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:09:52 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:13:14 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:13:14 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:13:16 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:13:16 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:14:32 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:14:32 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:15:45 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:15:45 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:16:29 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:16:29 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:16:41 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:16:41 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:17:03 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:17:03 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:17:14 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:17:14 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:17:32 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:17:32 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:18:37 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:18:37 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:18:45 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:18:45 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:20:20 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:20:20 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:22:46 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:22:46 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:23:14 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:23:14 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:23:38 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:23:38 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:24:12 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:24:12 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:24:39 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:24:39 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:27:09 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:27:09 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:27:09 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:27:10 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:27:31 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:27:31 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:27:31 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:27:31 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:34:14 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:34:14 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:35:28 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:35:28 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:37:22 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:37:22 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:39:13 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:39:13 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:42:38 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:42:38 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:46:02 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:46:02 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:46:40 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:46:40 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:51:49 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:51:49 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:56:49 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:56:49 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:57:50 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:57:50 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 12:58:06 [INFO]: Fetching QWERTY game with ID: 673599c241b2cccbdb7ad47a
+2024-11-14 12:58:06 [INFO]: Game found: {"id":"673599c241b2cccbdb7ad47a","name":"test challenge","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 15:06:59 [INFO]: GET request received for QWERTY
+2024-11-14 15:06:59 [INFO]: Payload constructed successfully: %o
+2024-11-14 15:06:59 [INFO]: GET request received for QWERTY
+2024-11-14 15:06:59 [INFO]: Payload constructed successfully: %o
+2024-11-14 15:07:31 [INFO]: Fetching QWERTY game with ID: 6734b9a9ff5ef877489cbdff
+2024-11-14 15:07:31 [INFO]: Game found: {"id":"6734b9a9ff5ef877489cbdff","name":"frt","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 15:08:00 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-14 15:08:00 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-14 15:08:01 [INFO]: Redirecting to next action at: /api/actions/create-game/next-action?name=test&wager=0.001
+2024-11-14 15:08:01 [INFO]: Response payload created successfully
+2024-11-14 15:08:14 [INFO]: Creating a new QWERTY game in the database:
+2024-11-14 15:08:14 [INFO]: QWERTY game created successfully with ID: 6735c50650f1a4ed0afab556
+2024-11-14 15:08:14 [INFO]: [Create QWERTY next action] final response: Now it's time for you to complete the typing challenge to set the initial score. Once you've finished, others can join the game and try to beat your score.
+
+Play now: https://qwerty.nixblack.site/6735c50650f1a4ed0afab556
+
+Note: Others will only be able to join after you complete your turn.
+
+Then you can Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=6735c50650f1a4ed0afab556&name=test]
+2024-11-14 15:08:29 [INFO]: Fetching QWERTY game with ID: 6735c50650f1a4ed0afab556
+2024-11-14 15:08:29 [INFO]: Game found: {"id":"6735c50650f1a4ed0afab556","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 15:25:40 [INFO]: Fetching QWERTY game with ID: 6735c50650f1a4ed0afab556
+2024-11-14 15:25:40 [INFO]: Game found: {"id":"6735c50650f1a4ed0afab556","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 15:26:05 [INFO]: Fetching QWERTY game with ID: 6735c50650f1a4ed0afab556
+2024-11-14 15:26:05 [INFO]: Game found: {"id":"6735c50650f1a4ed0afab556","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 15:32:21 [INFO]: Fetching QWERTY game with ID: 6735c50650f1a4ed0afab556
+2024-11-14 15:32:22 [INFO]: Game found: {"id":"6735c50650f1a4ed0afab556","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 15:36:32 [INFO]: Fetching QWERTY game with ID: 6735c50650f1a4ed0afab556
+2024-11-14 15:36:33 [INFO]: Game found: {"id":"6735c50650f1a4ed0afab556","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 15:37:00 [INFO]: Fetching QWERTY game with ID: 6735c50650f1a4ed0afab556
+2024-11-14 15:37:00 [INFO]: Game found: {"id":"6735c50650f1a4ed0afab556","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 15:37:30 [INFO]: Fetching QWERTY game with ID: 6735c50650f1a4ed0afab556
+2024-11-14 15:37:30 [INFO]: Game found: {"id":"6735c50650f1a4ed0afab556","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 16:05:57 [INFO]: Fetching QWERTY game with ID: 6735c50650f1a4ed0afab556
+2024-11-14 16:05:57 [INFO]: Game found: {"id":"6735c50650f1a4ed0afab556","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 16:06:54 [INFO]: Fetching QWERTY game with ID: 6735c50650f1a4ed0afab556
+2024-11-14 16:06:55 [INFO]: Game found: {"id":"6735c50650f1a4ed0afab556","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 16:08:14 [INFO]: Fetching QWERTY game with ID: 6735c50650f1a4ed0afab556
+2024-11-14 16:08:14 [INFO]: Game found: {"id":"6735c50650f1a4ed0afab556","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 16:09:04 [INFO]: Fetching QWERTY game with ID: 6735c50650f1a4ed0afab556
+2024-11-14 16:09:05 [INFO]: Game found: {"id":"6735c50650f1a4ed0afab556","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 16:11:33 [INFO]: Fetching QWERTY game with ID: 6735c50650f1a4ed0afab556
+2024-11-14 16:11:33 [INFO]: Game found: {"id":"6735c50650f1a4ed0afab556","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 16:12:21 [INFO]: Fetching QWERTY game with ID: 6735c50650f1a4ed0afab556
+2024-11-14 16:12:21 [INFO]: Game found: {"id":"6735c50650f1a4ed0afab556","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":21,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 16:14:23 [INFO]: Fetching QWERTY game with ID: 6735c50650f1a4ed0afab556
+2024-11-14 16:14:24 [INFO]: Game found: {"id":"6735c50650f1a4ed0afab556","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":21,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 17:46:19 [INFO]: Fetching QWERTY game with ID: 6734b9a9ff5ef877489cbdff
+2024-11-14 17:46:20 [ERROR]: Game with ID 6734b9a9ff5ef877489cbdff not found
+2024-11-14 17:47:38 [INFO]: Fetching QWERTY game with ID: 6734b9a9ff5ef877489cbdff
+2024-11-14 17:47:38 [ERROR]: Game with ID 6734b9a9ff5ef877489cbdff not found
+2024-11-14 17:49:11 [INFO]: GET request received for QWERTY
+2024-11-14 17:49:11 [INFO]: Payload constructed successfully: %o
+2024-11-14 17:49:17 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-14 17:49:17 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-14 17:49:17 [INFO]: Redirecting to next action at: /api/actions/create-game/next-action?name=dd&wager=0.001
+2024-11-14 17:49:17 [INFO]: Response payload created successfully
+2024-11-14 17:50:59 [INFO]: GET request received for QWERTY
+2024-11-14 17:50:59 [INFO]: Payload constructed successfully: %o
+2024-11-14 17:50:59 [INFO]: GET request received for QWERTY
+2024-11-14 17:50:59 [INFO]: Payload constructed successfully: %o
+2024-11-14 17:51:05 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-14 17:51:05 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-14 17:51:06 [INFO]: Redirecting to next action at: /api/actions/create-game/next-action?name=ee&wager=0.001
+2024-11-14 17:51:06 [INFO]: Response payload created successfully
+2024-11-14 17:51:15 [INFO]: Creating a new QWERTY game in the database:
+2024-11-14 17:51:16 [INFO]: QWERTY game created successfully with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 17:51:16 [INFO]: [Create QWERTY next action] final response: Now it's time for you to complete the typing challenge to set the initial score. Once you've finished, others can join the game and try to beat your score.
+
+Play now: https://qwerty.nixblack.site/6735eb3bfd40631aa050dce5
+
+Note: Others will only be able to join after you complete your turn.
+
+Then you can Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=6735eb3bfd40631aa050dce5&name=ee]
+2024-11-14 17:52:04 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 17:52:04 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 17:52:49 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 17:52:49 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 17:53:18 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 17:53:18 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":20,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 17:53:59 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 17:53:59 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":20,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 17:54:44 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 17:54:45 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":20,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 17:55:10 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 17:55:11 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":20,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 17:55:20 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 17:55:21 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":20,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 17:55:23 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 17:55:23 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":20,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 17:58:17 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 17:58:17 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":20,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 17:58:24 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 17:58:24 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":20,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 17:59:24 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 17:59:24 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":20,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 18:01:03 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:01:03 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 18:01:48 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:01:49 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":23,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 18:02:41 [INFO]: GET request received for join QWERTY
+2024-11-14 18:02:41 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:02:41 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":23,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 18:02:41 [INFO]: Payload constructed successfully: %o
+2024-11-14 18:02:41 [INFO]: GET request received for join QWERTY
+2024-11-14 18:02:41 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:02:41 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":23,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 18:02:41 [INFO]: Payload constructed successfully: %o
+2024-11-14 18:02:43 [INFO]: POST request received for join QWERTY
+2024-11-14 18:02:43 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:02:43 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":23,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 18:02:43 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-14 18:02:43 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-14 18:02:43 [INFO]: Redirecting to next action at: /api/actions/join-game/next-action?name=ee&gameID=6735eb3bfd40631aa050dce5
+2024-11-14 18:02:43 [INFO]: Response payload created successfully
+2024-11-14 18:02:53 [INFO]: POST request received for join QWERTY
+2024-11-14 18:02:53 [INFO]: Completing the game: 6735eb3bfd40631aa050dce5
+2024-11-14 18:02:53 [INFO]: Game updated successfully with player2Account: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-14 18:02:53 [INFO]: [Create QWERTY next action] final response: You’ve been challenged! Now it's your turn to test your typing skills and beat the score.
+
+Click here to play: https://qwerty.nixblack.site/6735eb3bfd40631aa050dce5
+2024-11-14 18:03:00 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:03:01 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 18:03:26 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:03:26 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":16,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 18:03:52 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:03:52 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":16,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 18:03:53 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:03:53 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":16,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 18:04:21 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:04:21 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":16,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 18:04:24 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:04:25 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":16,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 18:07:13 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:07:13 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":16,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 18:10:20 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:10:20 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":16,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 18:10:22 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:10:22 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":16,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 18:10:23 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:10:24 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":16,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 18:10:25 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:10:25 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":16,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 18:10:27 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:10:27 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":16,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 18:10:28 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:10:28 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":16,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 18:11:54 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce5
+2024-11-14 18:11:54 [INFO]: Game found: {"id":"6735eb3bfd40631aa050dce5","name":"ee","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":16,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-14 18:17:31 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce
+2024-11-14 18:17:31 [ERROR]: Error fetching QWERTY game: CastError: Cast to ObjectId failed for value "6735eb3bfd40631aa050dce" (type string) at path "_id" for model "QWERTYGame"
+2024-11-14 18:18:02 [INFO]: Fetching QWERTY game with ID: 6735eb3bfd40631aa050dce
+2024-11-14 18:18:02 [ERROR]: Error fetching QWERTY game: CastError: Cast to ObjectId failed for value "6735eb3bfd40631aa050dce" (type string) at path "_id" for model "QWERTYGame"
+2024-11-14 18:28:00 [INFO]: GET request received for QWERTY
+2024-11-14 18:28:00 [INFO]: Payload constructed successfully: %o
+2024-11-14 18:28:00 [INFO]: GET request received for QWERTY
+2024-11-14 18:28:00 [INFO]: Payload constructed successfully: %o
+2024-11-14 18:28:09 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-14 18:28:09 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-14 18:28:09 [INFO]: Redirecting to next action at: /api/actions/create-game/next-action?name=finally&wager=0.001
+2024-11-14 18:28:09 [INFO]: Response payload created successfully
+2024-11-14 18:28:22 [INFO]: Creating a new QWERTY game in the database:
+2024-11-14 18:28:22 [INFO]: QWERTY game created successfully with ID: 6735f3eefd40631aa050dd0c
+2024-11-14 18:28:22 [INFO]: [Create QWERTY next action] final response: Now it's time for you to complete the typing challenge to set the initial score. Once you've finished, others can join the game and try to beat your score.
+
+Play now: https://qwerty.nixblack.site/6735f3eefd40631aa050dd0c
+
+Note: Others will only be able to join after you complete your turn.
+
+Then you can Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=6735f3eefd40631aa050dd0c&name=finally]
+2024-11-14 18:28:37 [INFO]: Fetching QWERTY game with ID: 6735f3eefd40631aa050dd0c
+2024-11-14 18:28:37 [INFO]: Game found: {"id":"6735f3eefd40631aa050dd0c","name":"finally","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-14 18:29:00 [INFO]: Fetching QWERTY game with ID: 6735f3eefd40631aa050dd0c
+2024-11-14 18:29:00 [INFO]: Game found: {"id":"6735f3eefd40631aa050dd0c","name":"finally","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":23,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 18:29:12 [INFO]: GET request received for join QWERTY
+2024-11-14 18:29:12 [INFO]: Fetching QWERTY game with ID: 6735f3eefd40631aa050dd0c
+2024-11-14 18:29:12 [INFO]: Game found: {"id":"6735f3eefd40631aa050dd0c","name":"finally","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":23,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 18:29:12 [INFO]: Payload constructed successfully: %o
+2024-11-14 18:29:12 [INFO]: GET request received for join QWERTY
+2024-11-14 18:29:12 [INFO]: Fetching QWERTY game with ID: 6735f3eefd40631aa050dd0c
+2024-11-14 18:29:12 [INFO]: Game found: {"id":"6735f3eefd40631aa050dd0c","name":"finally","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":23,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 18:29:12 [INFO]: Payload constructed successfully: %o
+2024-11-14 18:29:14 [INFO]: POST request received for join QWERTY
+2024-11-14 18:29:14 [INFO]: Fetching QWERTY game with ID: 6735f3eefd40631aa050dd0c
+2024-11-14 18:29:14 [INFO]: Game found: {"id":"6735f3eefd40631aa050dd0c","name":"finally","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":23,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 18:29:14 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-14 18:29:14 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-14 18:29:14 [INFO]: Redirecting to next action at: /api/actions/join-game/next-action?name=finally&gameID=6735f3eefd40631aa050dd0c
+2024-11-14 18:29:14 [INFO]: Response payload created successfully
+2024-11-14 18:29:29 [INFO]: POST request received for join QWERTY
+2024-11-14 18:29:29 [INFO]: Completing the game: 6735f3eefd40631aa050dd0c
+2024-11-14 18:29:29 [INFO]: Game updated successfully with player2Account: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-14 18:29:29 [INFO]: [Create QWERTY next action] final response: You’ve been challenged! Now it's your turn to test your typing skills and beat the score.
+
+Click here to play: https://qwerty.nixblack.site/6735f3eefd40631aa050dd0c
+2024-11-14 18:29:36 [INFO]: Fetching QWERTY game with ID: 6735f3eefd40631aa050dd0c
+2024-11-14 18:29:37 [INFO]: Game found: {"id":"6735f3eefd40631aa050dd0c","name":"finally","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-14 18:29:58 [INFO]: Fetching QWERTY game with ID: 6735f3eefd40631aa050dd0c
+2024-11-14 18:29:59 [INFO]: Game found: {"id":"6735f3eefd40631aa050dd0c","name":"finally","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":23,"player2WPM":15,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-15 13:41:27 [INFO]: GET request received for QWERTY
+2024-11-15 13:41:27 [INFO]: Payload constructed successfully: %o
+2024-11-15 13:42:21 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-15 13:42:21 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-15 13:42:26 [INFO]: Redirecting to next action at: /api/actions/create-game/next-action?name=test&wager=0.001
+2024-11-15 13:42:26 [INFO]: Response payload created successfully
+2024-11-15 13:42:51 [INFO]: Creating a new QWERTY game in the database:
+2024-11-15 13:42:52 [INFO]: QWERTY game created successfully with ID: 673702835343013e9e104178
+2024-11-15 13:42:52 [INFO]: [Create QWERTY next action] final response: Now it's time for you to complete the typing challenge to set the initial score. Once you've finished, others can join the game and try to beat your score.
+
+Play now: https://qwerty.nixblack.site/673702835343013e9e104178
+
+Note: Others will only be able to join after you complete your turn.
+
+Then you can Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=673702835343013e9e104178&name=test]
+2024-11-15 13:44:03 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 13:44:03 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-15 13:45:12 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 13:45:12 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-15 13:48:22 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 13:48:22 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":44,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 13:49:26 [INFO]: GET request received for join QWERTY
+2024-11-15 13:49:26 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 13:49:26 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":44,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 13:49:26 [INFO]: Payload constructed successfully: %o
+2024-11-15 13:49:26 [INFO]: GET request received for join QWERTY
+2024-11-15 13:49:26 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 13:49:26 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":44,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 13:49:26 [INFO]: Payload constructed successfully: %o
+2024-11-15 13:49:29 [INFO]: POST request received for join QWERTY
+2024-11-15 13:49:29 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 13:49:29 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":44,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 13:49:29 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-15 13:49:29 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-15 13:49:30 [INFO]: Redirecting to next action at: /api/actions/join-game/next-action?name=test&gameID=673702835343013e9e104178
+2024-11-15 13:49:30 [INFO]: Response payload created successfully
+2024-11-15 13:49:37 [INFO]: POST request received for join QWERTY
+2024-11-15 13:49:37 [INFO]: Completing the game: 673702835343013e9e104178
+2024-11-15 13:49:37 [INFO]: Game updated successfully with player2Account: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-15 13:49:37 [INFO]: [Create QWERTY next action] final response: You’ve been challenged! Now it's your turn to test your typing skills and beat the score.
+
+Click here to play: https://qwerty.nixblack.site/673702835343013e9e104178
+2024-11-15 13:49:43 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 13:49:43 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":44,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 13:49:59 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 13:49:59 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":44,"player2WPM":12,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-15 13:51:54 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 13:51:55 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":44,"player2WPM":12,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-15 13:52:24 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 13:52:24 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":44,"player2WPM":12,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-15 13:52:41 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 13:52:41 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":44,"player2WPM":12,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-15 13:53:45 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 13:53:45 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":44,"player2WPM":12,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-15 13:55:13 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 13:55:13 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":44,"player2WPM":12,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-15 13:58:32 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 13:58:32 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":44,"player2WPM":12,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-15 13:59:03 [INFO]: GET request received for QWERTY
+2024-11-15 13:59:03 [INFO]: Payload constructed successfully: %o
+2024-11-15 13:59:10 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-15 13:59:10 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-15 13:59:11 [INFO]: Redirecting to next action at: /api/actions/create-game/next-action?name=teret&wager=0.001
+2024-11-15 13:59:11 [INFO]: Response payload created successfully
+2024-11-15 13:59:17 [INFO]: Creating a new QWERTY game in the database:
+2024-11-15 13:59:17 [INFO]: QWERTY game created successfully with ID: 6737065d5343013e9e10418d
+2024-11-15 13:59:17 [INFO]: [Create QWERTY next action] final response: Now it's time for you to complete the typing challenge to set the initial score. Once you've finished, others can join the game and try to beat your score.
+
+Play now: https://qwerty.nixblack.site/6737065d5343013e9e10418d
+
+Note: Others will only be able to join after you complete your turn.
+
+Then you can Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=6737065d5343013e9e10418d&name=teret]
+2024-11-15 13:59:47 [INFO]: Fetching QWERTY game with ID: 6737065d5343013e9e10418d
+2024-11-15 13:59:47 [INFO]: Game found: {"id":"6737065d5343013e9e10418d","name":"teret","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-15 14:00:11 [INFO]: Fetching QWERTY game with ID: 6737065d5343013e9e10418d
+2024-11-15 14:00:11 [INFO]: Game found: {"id":"6737065d5343013e9e10418d","name":"teret","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":15,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 14:01:03 [INFO]: GET request received for join QWERTY
+2024-11-15 14:01:03 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 14:01:03 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":44,"player2WPM":12,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-15 14:01:03 [INFO]: Payload constructed successfully: %o
+2024-11-15 14:01:03 [INFO]: GET request received for join QWERTY
+2024-11-15 14:01:03 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 14:01:04 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":44,"player2WPM":12,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-15 14:01:04 [INFO]: Payload constructed successfully: %o
+2024-11-15 14:01:07 [INFO]: GET request received for join QWERTY
+2024-11-15 14:01:07 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 14:01:07 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":44,"player2WPM":12,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-15 14:01:07 [INFO]: Payload constructed successfully: %o
+2024-11-15 14:01:18 [INFO]: GET request received for join QWERTY
+2024-11-15 14:01:18 [INFO]: Fetching QWERTY game with ID: 673702835343013e9e104178
+2024-11-15 14:01:18 [INFO]: Game found: {"id":"673702835343013e9e104178","name":"test","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":44,"player2WPM":12,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-15 14:01:18 [INFO]: Payload constructed successfully: %o
+2024-11-15 14:04:25 [INFO]: Fetching QWERTY game with ID: 6737065d5343013e9e10418d
+2024-11-15 14:04:25 [INFO]: Game found: {"id":"6737065d5343013e9e10418d","name":"teret","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":15,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 14:04:32 [INFO]: GET request received for join QWERTY
+2024-11-15 14:04:32 [INFO]: Fetching QWERTY game with ID: 6737065d5343013e9e10418d
+2024-11-15 14:04:32 [INFO]: Game found: {"id":"6737065d5343013e9e10418d","name":"teret","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":15,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 14:04:32 [INFO]: Payload constructed successfully: %o
+2024-11-15 14:05:24 [INFO]: Fetching QWERTY game with ID: 6737065d5343013e9e10418d
+2024-11-15 14:05:24 [INFO]: Game found: {"id":"6737065d5343013e9e10418d","name":"teret","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":15,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 14:06:32 [INFO]: GET request received for join QWERTY
+2024-11-15 14:06:32 [INFO]: Fetching QWERTY game with ID: 6737065d5343013e9e10418d
+2024-11-15 14:06:32 [INFO]: Game found: {"id":"6737065d5343013e9e10418d","name":"teret","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":15,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 14:06:32 [INFO]: Payload constructed successfully: %o
+2024-11-15 14:06:51 [INFO]: POST request received for join QWERTY
+2024-11-15 14:06:51 [INFO]: Fetching QWERTY game with ID: 6737065d5343013e9e10418d
+2024-11-15 14:06:51 [INFO]: Game found: {"id":"6737065d5343013e9e10418d","name":"teret","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":15,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 14:06:51 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-15 14:06:51 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-15 14:06:57 [INFO]: Redirecting to next action at: /api/actions/join-game/next-action?name=teret&gameID=6737065d5343013e9e10418d
+2024-11-15 14:06:57 [INFO]: Response payload created successfully
+2024-11-15 14:07:12 [INFO]: POST request received for join QWERTY
+2024-11-15 14:07:12 [INFO]: Completing the game: 6737065d5343013e9e10418d
+2024-11-15 14:07:12 [INFO]: Game updated successfully with player2Account: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-15 14:07:12 [INFO]: [Create QWERTY next action] final response: You’ve been challenged! Now it's your turn to test your typing skills and beat the score.
+
+Click here to play: https://qwerty.nixblack.site/6737065d5343013e9e10418d
+2024-11-15 14:07:32 [INFO]: Fetching QWERTY game with ID: 6737065d5343013e9e10418d
+2024-11-15 14:07:32 [INFO]: Game found: {"id":"6737065d5343013e9e10418d","name":"teret","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":15,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 14:07:52 [INFO]: Fetching QWERTY game with ID: 6737065d5343013e9e10418d
+2024-11-15 14:07:52 [INFO]: Game found: {"id":"6737065d5343013e9e10418d","name":"teret","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":15,"player2WPM":15,"player1Joined":true,"player2Joined":true,"winner":""}
+2024-11-15 14:14:20 [INFO]: GET request received for QWERTY
+2024-11-15 14:14:20 [INFO]: Payload constructed successfully: %o
+2024-11-15 14:15:25 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-15 14:15:25 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-15 14:15:30 [INFO]: Redirecting to next action at: /api/actions/create-game/next-action?name=finally&wager=0.001
+2024-11-15 14:15:30 [INFO]: Response payload created successfully
+2024-11-15 14:15:53 [INFO]: Creating a new QWERTY game in the database:
+2024-11-15 14:15:53 [INFO]: QWERTY game created successfully with ID: 67370a415343013e9e1041a1
+2024-11-15 14:15:53 [INFO]: [Create QWERTY next action] final response: Now it's time for you to complete the typing challenge to set the initial score. Once you've finished, others can join the game and try to beat your score.
+
+Play now: https://qwerty.nixblack.site/67370a415343013e9e1041a1
+
+Note: Others will only be able to join after you complete your turn.
+
+Then you can Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=67370a415343013e9e1041a1&name=finally]
+2024-11-15 14:16:02 [INFO]: Fetching QWERTY game with ID: 67370a415343013e9e1041a1
+2024-11-15 14:16:02 [INFO]: Game found: {"id":"67370a415343013e9e1041a1","name":"finally","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":0,"player2WPM":0,"player1Joined":false,"player2Joined":false,"winner":""}
+2024-11-15 14:16:15 [INFO]: Fetching QWERTY game with ID: 67370a415343013e9e1041a1
+2024-11-15 14:16:15 [INFO]: Game found: {"id":"67370a415343013e9e1041a1","name":"finally","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":1.4177693761814745,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 14:16:26 [INFO]: GET request received for join QWERTY
+2024-11-15 14:16:26 [INFO]: Fetching QWERTY game with ID: 67370a415343013e9e1041a1
+2024-11-15 14:16:26 [INFO]: Game found: {"id":"67370a415343013e9e1041a1","name":"finally","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":1.4177693761814745,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 14:16:26 [INFO]: Payload constructed successfully: %o
+2024-11-15 14:16:27 [INFO]: POST request received for join QWERTY
+2024-11-15 14:16:27 [INFO]: Fetching QWERTY game with ID: 67370a415343013e9e1041a1
+2024-11-15 14:16:27 [INFO]: Game found: {"id":"67370a415343013e9e1041a1","name":"finally","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"","player1WPM":1.4177693761814745,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 14:16:27 [INFO]: Account PublicKey validated: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-15 14:16:27 [INFO]: [createTransaction] Sending SOL tx with body: 
+    [accountPublicKey: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5, 
+    gameWalletPublicKey: 6yaxBaZMnkhiP7NHgZzweUjHE1wcsVy2nxWo3VMSLKNE,
+    currency: SOL,
+    amount: 0.001,
+    cluster: https://api.devnet.solana.com,
+    ]
+2024-11-15 14:16:28 [INFO]: Redirecting to next action at: /api/actions/join-game/next-action?name=finally&gameID=67370a415343013e9e1041a1
+2024-11-15 14:16:28 [INFO]: Response payload created successfully
+2024-11-15 14:16:35 [INFO]: POST request received for join QWERTY
+2024-11-15 14:16:35 [INFO]: Completing the game: 67370a415343013e9e1041a1
+2024-11-15 14:16:35 [INFO]: Game updated successfully with player2Account: 6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5
+2024-11-15 14:16:35 [INFO]: [Create QWERTY next action] final response: You’ve been challenged! Now it's your turn to test your typing skills and beat the score.
+
+Click here to play: https://qwerty.nixblack.site/67370a415343013e9e1041a1
+2024-11-15 14:16:54 [INFO]: Fetching QWERTY game with ID: 67370a415343013e9e1041a1
+2024-11-15 14:16:54 [INFO]: Game found: {"id":"67370a415343013e9e1041a1","name":"finally","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":1.4177693761814745,"player2WPM":0,"player1Joined":true,"player2Joined":false,"winner":""}
+2024-11-15 14:17:01 [INFO]: GET request received for QWERTY
+2024-11-15 14:17:01 [INFO]: Payload constructed successfully: %o
+2024-11-15 14:17:11 [INFO]: Fetching QWERTY game with ID: 67370a415343013e9e1041a1
+2024-11-15 14:17:11 [INFO]: Game found: {"id":"67370a415343013e9e1041a1","name":"finally","wager":0.001,"player1Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player2Account":"6264vVvtWg8CqBRegBt83ttcPPK61LurXNs7cqF56Gf5","player1WPM":1.4177693761814745,"player2WPM":21.38157894736842,"player1Joined":true,"player2Joined":true,"winner":""}

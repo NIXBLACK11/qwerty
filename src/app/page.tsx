@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 export default function Page() {
 	const [displayText, setDisplayText] = useState('Q');
 	const [index, setIndex] = useState(0);
-	let text = "QWERTY";
+	const text = "QWERTY";
   
 	useEffect(() => {
 		const typingInterval = setInterval(() => {

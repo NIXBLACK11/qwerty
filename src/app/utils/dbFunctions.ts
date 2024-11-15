@@ -85,3 +85,30 @@ export async function completeQWERTYGameBackend(
 	  return false;
 	}
   }
+
+  export async function updatePlayerWPM(gameID: string, playerNumber: number, wpm: number) {
+	const gameData = await QWERTYGame.findById(gameID);
+  
+	if (!gameData) {
+	  throw new Error('Game not found');
+	}
+  
+	if (playerNumber === 1) {
+	  if (gameData.player1Joined && gameData.player1WPM !== 0) {
+		throw new Error('Player 1 has already set WPM');
+	  }
+	  gameData.player1WPM = wpm;
+	  gameData.player1Joined = true;
+	} else if (playerNumber === 2) {
+	  if (gameData.player2Joined && gameData.player2WPM !== 0) {
+		throw new Error('Player 2 has already set WPM');
+	  }
+	  gameData.player2WPM = wpm;
+	  gameData.player2Joined = true;
+	} else {
+	  throw new Error('Invalid player number');
+	}
+  
+	await gameData.save();
+	return gameData;
+  }

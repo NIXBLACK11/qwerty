@@ -9,9 +9,8 @@ import {
     createActionHeaders,
     ActionError,
     LinkedAction,
-    ActionParameterSelectable,
   } from "@solana/actions";
-  import { Connection, PublicKey, SystemProgram, Transaction } from "@solana/web3.js";
+  import { Connection, PublicKey, Transaction } from "@solana/web3.js";
   import { StatusCodes } from "http-status-codes";
 import { createTransaction } from "@/app/utils/transaction";
 
@@ -85,7 +84,7 @@ import { createTransaction } from "@/app/utils/transaction";
       try {
         account = new PublicKey(body.account);
         logger.info(`Account PublicKey validated: ${account.toString()}`);
-      } catch (err) {
+      } catch {
         logger.error(`Invalid account public key: ${body.account}`);
         return jsonResponse({ error: "Invalid public key probided!" }, StatusCodes.INTERNAL_SERVER_ERROR, headers);
       }
