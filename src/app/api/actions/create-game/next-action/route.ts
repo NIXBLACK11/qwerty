@@ -65,7 +65,7 @@ import { StatusCodes } from "http-status-codes";
 		}
   
 		const message = `Now it's time for you to complete the typing challenge to set the initial score. Once you've finished, others can join the game and try to beat your score.\n
-Play now: https://qwerty.nixblack.site/${gameID}\n
+Play now: https://qwerty.nixblack.site/game/${gameID}\n
 Note: Others will only be able to join after you complete your turn.\n
 Then you can Share your link so others can join: [http://localhost:3000/api/actions/join-game?gameID=${gameID}&name=${name}]`
 		logger.info(`[Create QWERTY next action] final response: ${message}`);

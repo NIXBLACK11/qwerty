@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Space_Mono } from "next/font/google";
 import { MdTimer } from 'react-icons/md';
 import { updatePlayerWPMRequest } from '../utils/dbCalls';
+import { FullQWERTYGame } from '../utils/types';
 
 const spaceMono = Space_Mono({
     subsets: ['latin'],
@@ -22,6 +23,7 @@ export const Game: React.FC<PlayerProps> = ({ player, gameID }) => {
     const [WPM, setWPM] = useState<number>(0);
     const [totalTime, setTotalTime] = useState<number>(0);
     const [errorsInType, setErrorsInType] = useState<number>(0);
+    const [completedText, setCompletedText] = useState<string>("");
     const [incorrectIndices, setIncorrectIndices] = useState<number[]>([]);
     const [index, setIndex] = useState<number>(0);
     const pressedKeyRef = useRef<string | null>(null);
@@ -47,7 +49,7 @@ export const Game: React.FC<PlayerProps> = ({ player, gameID }) => {
         }
     }
 
-    const stopTimer = () => {
+    const stopTimer = async () => {
         if (startTime !== null && totalTime == 0) {
             const endTime = Date.now();
             const elapsedTime = (endTime - startTime) / 1000;
@@ -84,11 +86,12 @@ export const Game: React.FC<PlayerProps> = ({ player, gameID }) => {
                 }
 
                 if (pressedKeyRef.current === text[index]) {
-                    setIndex(index + 1);
+                    setCompletedText(prev => prev + text[index]);
                 } else {
                     setErrorsInType(prev => prev + 1);
                     setIncorrectIndices(prev => [...prev, index]);
                 }
+                setIndex(index + 1);
 
                 if (index + 1 >= text.length) {
                     stopTimer();

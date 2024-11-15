@@ -1,5 +1,6 @@
 import dbConnect from "./dbConnect";
 import logger from "./logger";
+import { makeTransaction } from "./makeTransaction";
 import { FullQWERTYGame, IQWERTYGame, JQWERTYGame } from "./types";
 import QWERTYGame from "@/models/QWERTY";
 
@@ -107,6 +108,16 @@ export async function completeQWERTYGameBackend(
 	  gameData.player2Joined = true;
 	} else {
 	  throw new Error('Invalid player number');
+	}
+
+	if(playerNumber===2) {
+		if(gameData.player1WPM>gameData.player2WPM) {
+			gameData.winner="1";
+			makeTransaction(gameData.wager, gameData.player1Account);
+		} else {
+			gameData.winner="2";
+			makeTransaction(gameData.wager, gameData.player2Account);
+		}
 	}
   
 	await gameData.save();

@@ -49,6 +49,19 @@ import { FullQWERTYGame } from "@/app/utils/types";
         throw new Error("Player 1 has not played yet!");
       }
 
+      if(fullGame.player1Joined==true && fullGame.player2Joined==true && fullGame.player1WPM!=0 && fullGame.player2WPM!=0) {
+        const winnerWPM = (fullGame.winner==="1") ? fullGame.player1WPM : fullGame.player2WPM;
+        const payload: ActionGetResponse = {
+          title: "This game has been completed!",
+          icon: new URL("/black.jpg", requestUrl.origin).toString(),
+          type: "action",
+          description: `Player ${fullGame.winner} has won the game with a WPM of ${winnerWPM}`,
+          label: "Game Already Full",
+          links: { actions: [] },
+        };
+        return jsonResponse(payload, StatusCodes.OK, headers);
+      } 
+
       const href = `/api/actions/join-game?name=${name}&gameID=${gameID}`;
   
       const actions: LinkedAction[] = [

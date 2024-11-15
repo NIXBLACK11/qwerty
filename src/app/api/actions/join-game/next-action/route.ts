@@ -62,7 +62,7 @@ import { StatusCodes } from "http-status-codes";
 		}
   
 		const message = `You’ve been challenged! Now it's your turn to test your typing skills and beat the score.\n
-Click here to play: https://qwerty.nixblack.site/${gameID}`
+Click here to play: https://qwerty.nixblack.site/game/${gameID}`
 		logger.info(`[Create QWERTY next action] final response: ${message}`);
 		
 		const payload: CompletedAction = {

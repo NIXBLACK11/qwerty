@@ -89,28 +89,28 @@ import { createTransaction } from "@/app/utils/transaction";
         return jsonResponse({ error: "Invalid public key probided!" }, StatusCodes.INTERNAL_SERVER_ERROR, headers);
       }
   
-	  if(!gameWalletPublicKey) {
-		throw new Error("Internal error!");
-	  }
-	  const gameWallet = new PublicKey(gameWalletPublicKey); 
+      if(!gameWalletPublicKey) {
+        throw new Error("Internal error!");
+      }
+      const gameWallet = new PublicKey(gameWalletPublicKey); 
 
-	  const createTx = {
-		accountPublicKey: account,
-		gameWallet,
-		currency: "SOL",
-		amount: wager,
-		connection,
-		cluster: cluster.devnet,
-	  };
-  
-	  const tx = await createTransaction(createTx);
-  
-	  const { blockhash } = await connection.getLatestBlockhash();
-  
-	  const transaction = new Transaction({
-		recentBlockhash: blockhash,
-		feePayer: account,
-	  }).add(...tx);
+      const createTx = {
+      accountPublicKey: account,
+      gameWallet,
+      currency: "SOL",
+      amount: wager,
+      connection,
+      cluster: cluster.devnet,
+      };
+    
+      const tx = await createTransaction(createTx);
+    
+      const { blockhash } = await connection.getLatestBlockhash();
+    
+      const transaction = new Transaction({
+      recentBlockhash: blockhash,
+      feePayer: account,
+      }).add(...tx);
   
       const href = `/api/actions/create-game/next-action?name=${name}&wager=${wager}`;
       logger.info(`Redirecting to next action at: ${href}`);
