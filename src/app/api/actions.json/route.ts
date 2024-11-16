@@ -5,7 +5,7 @@ export const GET = async () => {
         rules: [
             {
                 pathPattern: '/',
-                apiPath: '/api/actions/join-game'
+                apiPath: '/api/actions/create-game'
             },
         ],
     };
